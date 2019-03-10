@@ -1,1 +1,1 @@
-# CSS文字交错滑动效果-001
+# [CSS文字交错滑动效果-001](https://github.com/qqlcx5/learnCSS/tree/master/001-button-text-staggered-sliding-effects)
