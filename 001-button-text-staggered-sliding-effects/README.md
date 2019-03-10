@@ -54,3 +54,6 @@ p data-foo="hello">world</p>
 		transform: translateY(0);
 	}
 ```
+### [项目源码](https://github.com/qqlcx5/learnCSS/tree/master/001-button-text-staggered-sliding-effects)
+### [了解更多，个人博客](https://github.com/qqlcx5/blog)
+![求打赏](https://user-gold-cdn.xitu.io/2019/3/9/1695e24ba6d4097a?w=1200&h=396&f=jpeg&s=287115)
