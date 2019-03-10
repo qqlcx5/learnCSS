@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title></title>
+		<style type="text/css">
+			html,
+			body {
+				height: 100%;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				background-color: papayawhip;
+			}
+
+			.box {
+				padding: 0 30px;
+				height: 60px;
+				text-align: center;
+				font-size: 30px;
+				line-height: 60px;
+				font-family: sans-serif;
+				overflow: hidden;
+				background: linear-gradient(90deg, #ff5c38 0, #ff1459 45%, #ffb821);
+
+			}
+
+			.box span {
+				display: inline-block;
+				color: blue;
+				transition: 1s;
+			}
+
+			.box span:nth-child(odd) {
+				transform: translateY(-100%);
+			}
+
+			.box span:nth-child(even) {
+				transform: translateY(100%);
+			}
+
+			.box span:nth-child(odd)::before {
+				content: attr(data-text);
+				position: absolute;
+				color: darkorange;
+				bottom: 5%;
+			}
+
+			.box span:nth-child(even)::before {
+				content: attr(data-text);
+				position: absolute;
+				color: slateblue;
+				bottom: -5%;
+			}
+
+
+
+			.box span:nth-child(odd)::before {
+				transform: translateY(100%);
+			}
+
+			.box span:nth-child(even)::before {
+				transform: translateY(-100%);
+			}
+
+			.box:hover span:nth-child(odd) {
+				transform: translateY(5%);
+				color: darkolivegreen;
+			}
+
+			.box:hover span:nth-child(even) {
+				transform: translateY(-5%);
+				color: darkgoldenrod;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="box">
+			<span data-text="游">游</span>
+			<span data-text="戏">戏</span>
+			<span data-text="人">人</span>
+			<span data-text="生">生</span>
+			<span data-text="N">N</span>
+			<span data-text="O">O</span>
+			<span data-text="G">G</span>
+			<span data-text="A">A</span>
+			<span data-text="M">M</span>
+			<span data-text="E">E</span>
+			<span data-text="N">N</span>
+			<span data-text="O">O</span>
+			<span data-text="L">L</span>
+			<span data-text="I">I</span>
+			<span data-text="F">F</span>
+			<span data-text="E">E</span>
+
+		</div>
+	</body>
+</html>
